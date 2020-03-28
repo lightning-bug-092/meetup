@@ -1,0 +1,39 @@
+.group{
+    height: 320px;
+    width: 250px;
+    border: 1px solid #DDD;
+    border-radius: 10px;
+}
+.img-group{
+    height: 130px;
+    background-image: url('https://loremflickr.com/320/240');
+    background-position: center;
+    background-size: cover;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.infor-group{
+    padding: 15px;
+}
+.group-topic{
+    font-size: 16px;
+    font-weight: 550;
+    color: #888;
+    margin-bottom:15px;
+}
+.group-name{
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+.content-group{
+    margin-bottom: 15px;
+}
+.member-group{
+    color: #AAA;
+}
+.group:hover{
+    transform: translate(0px,-3px);
+    box-shadow: 0px 0px 2px 2px #DDD;
+    transition: all 0.3s;
+}

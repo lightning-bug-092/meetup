@@ -2,7 +2,7 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 .card{
-    height: 230px;
+    height: 210px;
     width: 340px;
     border: 1px solid #DDD;
     border-radius: 12px;
@@ -21,6 +21,7 @@
 .event{
     font-size: 20px;
     padding-bottom: 7px;
+    font-weight: bold;
 }
 .organizers{
     padding-bottom: 7px;
