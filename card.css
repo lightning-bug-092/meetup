@@ -1,0 +1,59 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.card{
+    height: 230px;
+    width: 340px;
+    border: 1px solid #DDD;
+    border-radius: 12px;
+}
+.content{
+    padding: 15px;
+}
+.infor-event{
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+.date{
+    color:#0098ab;
+    padding-bottom: 7px;
+}
+.event{
+    font-size: 20px;
+    padding-bottom: 7px;
+}
+.organizers{
+    padding-bottom: 7px;
+}
+.place{
+    display: flex;
+    color: #BBB;
+}
+.icon-place{
+    margin-right: 10px;
+}
+.attend{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.attendess{
+    flex-grow: 1;
+    color: #999;
+}
+.register-attend{
+    height: 30px;
+    width: 80px;
+    border: 1px solid #0098ab;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #0098ab;
+    padding: 3px;
+}
+.card:hover {
+    transform: translate(0px,-2px);
+    box-shadow: 0px 0px 2px 1px #EEE;
+    transition: all 0.3s;
+}
