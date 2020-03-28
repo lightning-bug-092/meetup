@@ -57,3 +57,7 @@
     box-shadow: 0px 0px 2px 1px #EEE;
     transition: all 0.3s;
 }
+.register-attend:hover{
+    background-color: darkcyan;
+    color: white;
+}
