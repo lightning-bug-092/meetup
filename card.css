@@ -1,9 +1,7 @@
-*{
-    font-family: Arial, Helvetica, sans-serif;
-}
+
 .card{
     height: 210px;
-    width: 340px;
+    width: 380px;
     border: 1px solid #DDD;
     border-radius: 12px;
 }
